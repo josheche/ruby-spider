@@ -26,7 +26,7 @@ To export the addresses from the database, us the "export" Rake task:
 
 You should see output like this:
 
-    [~/projects/email_spider] rake export
+    [~/projects/ruby_spider] rake export
     31 addresses exported to addresses.csv
 
 Each row in the exported data contains the email address, the date/time that it was collected, the host
