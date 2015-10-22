@@ -6,7 +6,7 @@ and the page where it was harvested, and the time that it was discovered.
 
 # Installation
 
-I recommend using RVM to set up the Ruby 1.9.2 environment and a gemset.  An .rvmrc file is included.
+Delete the Gemfile.lock file.
 
 Then bundle the gems with: `bundle install`
 
@@ -14,7 +14,7 @@ Then bundle the gems with: `bundle install`
 
 Invoke the spider with:
 
-    ruby crawl.rb http://target.com
+    ruby crawl.rb URL
 
 The spider will display the URL of each page as it crawls the web site.  It will write out a pages.pstore
 file for keeping track of the pages that it has crawled, and a data.db file for storing harvested
